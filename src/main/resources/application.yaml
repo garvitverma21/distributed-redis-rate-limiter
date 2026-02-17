@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+  tomcat:
+    max-connections: 10000
+    accept-count: 2000
+    threads:
+      max: 500
+    connection-timeout: 30s
+
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+      lettuce:
+        pool:
+          max-active: 200
+          max-idle: 50
+          min-idle: 10
