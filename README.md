@@ -105,7 +105,7 @@ k6 run script.js
 📈 Performance
 ----------------
 
-![k6 Load Test Results](Screenshot 2026-02-16 171835.png)
+![k6 Load Test Results](k6-load-test-1000vus.png)
 
 -Tested up to ~500–1000 concurrent virtual users (VUs)
 
